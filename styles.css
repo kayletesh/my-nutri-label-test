@@ -1,0 +1,134 @@
+:root {
+    --main-color: rgb(243, 243, 251);
+}
+
+* {
+    box-sizing: border-box;
+    background-color: #1f1c5c;
+    color: var(--main-color);
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'monospace', sans-serif;
+    text-shadow: 3px 3px 4px rgb(8, 8, 43);
+}
+
+.label {
+    border: 2px solid var(--main-color);
+    width: 283px;
+    margin: 20px auto;
+    padding: 0 7px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 5px rgb(8, 8, 43);
+
+}
+
+header h1 {
+    text-align: center;
+    margin: 0px 0;
+    letter-spacing: 0.15px
+}
+
+.servings {
+    letter-spacing: 1px;
+    color: rgb(226, 226, 234)
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+
+    margin: 2px 0;
+    border-radius: 5px;
+    padding: .5px;
+    background-color: var(--main-color);
+}
+
+.bold {
+    font-weight: 800;
+    /*text-shadow: 4px 4px 5px rgb(8, 8, 43);*/
+}
+
+.large {
+    margin-top: 5px;
+    height: 10px;
+}
+
+.large,
+.medium {
+    background-color: var(--main-color);
+    border: 0;
+    border-radius: 5px;
+}
+
+.medium {
+    height: 4px;
+
+}
+
+.small-text {
+    margin-top: -2px;
+    font-size: 0.85rem;
+    letter-spacing: .7px;
+}
+
+.xsmall-text {
+    Margin-top: -2px;
+    font-size: 0.65rem;
+    letter-spacing: .7px;
+}
+
+.xsmall {
+    margin-top: 2px;
+    font-size: 0.75rem;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calories-info h2 {
+    margin: 0px;
+}
+
+.left-container p {
+    margin: 0px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.calories-info span {
+    margin: 0px -2px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.double-indent {
+    margin-left: 2em;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
